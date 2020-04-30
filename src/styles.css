@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.App .register {
+  flex-basis: 40%;
+}
+
+.App .login {
+  flex-basis: 40%;
+}
+
+.App input {
+  width: 100%;
+  border: solid 1px #5f5f5f;
+  border-radius: 4px;
+  margin: 10px 0px;
+  padding: 10px 10px;
+}
+
+.App button {
+  width: 80%;
+  padding: 10px 0px;
+  border-radius: 4px;
+  border: solid 1px #a9a9a9;
+  margin-top: 10px;
+}
